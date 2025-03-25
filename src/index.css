@@ -1,0 +1,74 @@
+/* index.css */
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom right, #fef9f9, #e3f2fd);
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.App {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #ffffffcc;
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #1976d2;
+}
+
+.trip-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: left;
+}
+
+.trip-form label {
+  font-weight: 500;
+}
+
+.trip-form select,
+.trip-form button {
+  padding: 0.6rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.trip-form select:focus,
+.trip-form button:focus {
+  outline: none;
+  border-color: #1976d2;
+}
+
+.trip-form button {
+  background-color: #1976d2;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.trip-form button:hover {
+  background-color: #125a9c;
+}
+
+.trip-result {
+  margin-top: 2rem;
+}
+
+.result-card {
+  padding: 1rem;
+  background-color: #f1f8ff;
+  border-radius: 0.75rem;
+  border: 1px solid #90caf9;
+  font-size: 1.2rem;
+  color: #0d47a1;
+}
